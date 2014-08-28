@@ -18,18 +18,18 @@
 		</tr>
 		<tr>
 			<td>Password</td>
-			<td><input type="password" value="Enter Password" name="pwd" onclick="this.value=''"></td>
+			<td><input type="password" class="rounded" value="Enter Password" name="pwd" onclick="this.value=''"></td>
 		</tr>
 		<tr>
 			<td>Email</td>
-			<td><input type="text" value="Enter Email address" name="email" onclick="this.value=''"></td>
+			<td><input type="text" class="rounded" value="Enter Email address" name="email" onclick="this.value=''"></td>
 		</tr>
 		<tr>
 			<td>Contact No.</td>
-			<td><input type="text" value="Emter contact Number" name="contact" onclick="this.value=''" onchange="numberCheck(document.form.contact)"></td>
+			<td><input type="text" class="rounded" value="Enter contact Number" name="contact" onclick="this.value=''" onchange="numberCheck(document.form.contact)"></td>
 		</tr>
 		<tr>
-		<td colspan="2" align="center"><input type="submit" value="Go" align="middle"></td>
+		<td colspan="2" align="center"><input type="submit" class="rounded" value="Go" align="middle"></td>
 		</tr>
 	</table>
 </form>
