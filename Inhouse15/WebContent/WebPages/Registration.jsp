@@ -10,7 +10,7 @@
 </head>
 <body onload="load()">
 <%-- <h4><%=request.getContextPath() %></h4> --%>
-<form action="/WebPages/Process.jsp" method="get" name="form">
+<form action="WebPages/Process.jsp" method="get" name="form">
 	<table align="center">
 		<tr>
 			<td>UserName</td>
