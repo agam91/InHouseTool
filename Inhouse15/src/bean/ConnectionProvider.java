@@ -11,6 +11,7 @@ public class ConnectionProvider implements Provider {
 			Class.forName(DRIVER);
 			con=DriverManager.getConnection(CONNECTION_URL, USERNAME, PASSWORD);
 		}catch(Exception e){
+			e.printStackTrace();
 			System.out.println("Something Happend Wrong");
 		}
 	}

@@ -11,9 +11,10 @@
 	<jsp:useBean id="obj" class="bean.Registration"/>
 	<jsp:setProperty property="*" name="obj"/>
 	<%
-		int status=RegistrationDao.testConnection();
-		
-		out.print("works");
+		int status=RegistrationDao.register(obj);
+		if(status>0){
+			out.print("You Are Successfully Register");
+		}	
 	%>
 </body>
 </html>

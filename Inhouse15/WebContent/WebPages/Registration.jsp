@@ -8,9 +8,9 @@
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/CSSFiles/First.css" />
 <script type="text/javascript" src="<%=request.getContextPath()%>/JavaScriptFiles/Validation.js"></script>
 </head>
-<body onload="load()">
+<body onload="load()" style="margin-top: 150px;">
 <%-- <h4><%=request.getContextPath() %></h4> --%>
-<form action="WebPages/Process.jsp" method="get" name="form">
+<form action="Process.jsp" method="get" name="form">
 	<table align="center">
 		<tr>
 			<td>UserName</td>
